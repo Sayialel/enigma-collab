@@ -2,10 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Portfolio website</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-size: 40px;">Enigma</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav m-lg-auto">
+        <li class="nav-item nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about%20us.html">About Us</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="project.html">Project</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<!--end navbar-->
+<!-- Hero section -->
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Software<br>Development</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <button type="button" class="btn btn-dark btn-large">Learn more</button>
+      </div>
+      <div class="col img-col">
+        <img src="img/rocketSaaS.gif" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row cards">
+
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="./assets/icon1.svg" class="icon" alt="Service One"/>
+            <h5 class="card-title">Web Dev</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="./assets/icon2.svg" class="icon" alt="Service Two"/>
+            <h5 class="card-title">Machine Learning</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="./assets/icon3.svg" class="icon" alt="Service Three"/>
+            <h5 class="card-title">Security</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Hero section -->
 
 
 </body>
